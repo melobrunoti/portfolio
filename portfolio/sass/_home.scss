@@ -1,0 +1,62 @@
+.home {
+    background-image: linear-gradient(
+      to right bottom,
+      rgba(rgb(84, 197, 99), 0.8),
+      rgba(rgb(79, 137, 212), 0.8)),
+    url(./images/bg.jpg);
+    background-size: cover;
+/*     clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%); */
+    color: #fff;
+    height: 95vh;
+  
+  color: #fff;
+  height: 95vh;
+
+}
+
+.main {
+  padding: 35rem 0;
+  display: flex;
+  flex-direction: column;
+  margin-left: 7rem;
+
+
+  &__title {
+    font-size: 10rem;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+
+  }
+  &__title-sub {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: .3rem;
+    font-weight: 100;
+  }
+}
+
+.btn {
+  font-size: 1.8rem;
+  margin-top: 3rem;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  border: 2px solid #fff;
+  cursor: pointer;
+  width: 20rem;
+  color: #fff;
+  background-color: transparent;
+  transition: all .2s;
+  box-shadow: 0 1rem 2rem  rgba(0, 0, 0, .2);
+
+  &:hover {
+    background-color: #fff;
+    color: rgba(61, 61, 61, 0.822);
+    transform: scale(1.1);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .5);
+  }
+
+  &:active {
+    transform: translateY(-.1rem);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
+  }
+}
