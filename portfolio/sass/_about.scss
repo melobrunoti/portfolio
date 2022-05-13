@@ -2,25 +2,99 @@
   padding: 20rem 5rem;
   display: flex;
   justify-content: center;
+  background-color: rgb(246, 246, 246);
+  color: rgb(82, 82, 82);
 }
 
 .about {
-  background-color: red;
-  width: 40%;
-  margin: 12rem;
+  max-width: 40%;
+  margin: 2rem;
+  height: 50rem;
+  border-radius: 1rem;
+  padding: 2rem;
+
+  &__box {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 4rem;
+  }
 
   &__title {
     font-size: 5rem;
+    margin-bottom: -1rem;
   }
 
   &__paragraph {
     font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
   }
+
+  &__photo {
+    height: 15rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+    border: solid .5rem var(--color-primary);
+    
+  }
+}
+
+.title-effect {
+  color:transparent;
+  background-image: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+  -webkit-background-clip: text;
+  transition: all .2s;
+/*   text-transform: uppercase; */
+  
+
+    &:hover {
+      transform: skewY(2deg) skewX(15deg) scale(1.1);
+      /* text-shadow: .5rem 1rem 2rem rgba(black, .2) */
+    }
 }
 
 .skills {
   font-size: 1.5rem;
-  background-color: green;
+  /* background-color: green; */
   width: 40%;
+
+  &__title {
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem;
+  }
+
+  &__icon {
+    height: 10rem;
+    margin-bottom: 2rem;
+    transition: all .2s;
+    &:hover path{
+      fill: var(--color-secondary);
+    
+
+    }
+
+    &:hover {
+      transform: scale(1.15);
+    }
+  }
+
+  path{
+    fill: var(--color-primary-dark);
+    transition: all .2s;
+  }
 }
 

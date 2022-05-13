@@ -1,27 +1,35 @@
 const skills = [
   {
-    icon:'sass',
-    name:'Sass'
+    icon:'html-five',
+    name:'HTML'
   },
   {
     icon:'css3',
     name:'CSS'
   },
   {
-    icon:'react',
-    name:'React'
-  },
-  {
-    icon:'mysql',
-    name:'Sql'
-  },
-  {
-    icon:'jest',
-    name:'Jest'
+    icon:'sass',
+    name:'Sass'
   },
   {
     icon:'javascript',
     name:'JavaScript'
+  },
+  {
+    icon:'react',
+    name:'React'
+  },
+  {
+    icon:'node-dot-js',
+    name:'React'
+  },
+  {
+    icon:'mysql',
+    name:'MySQL'
+  },
+  {
+    icon:'jest',
+    name:'Jest'
   },
   {
     icon:'github',
@@ -31,10 +39,7 @@ const skills = [
     icon:'git',
     name:'Git'
   },
-  {
-    icon:'html-five',
-    name:'HTML'
-  },
+
 ]
 
 export default skills;
