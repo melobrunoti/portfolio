@@ -78,8 +78,28 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
 }
 
+.about-section {
+  padding: 20rem 5rem;
+  display: flex;
+  justify-content: center;
+}
+
 .about {
-  padding: 20rem 0;
+  background-color: red;
+  width: 40%;
+  margin: 12rem;
+}
+.about__title {
+  font-size: 5rem;
+}
+.about__paragraph {
+  font-size: 1.5rem;
+}
+
+.skills {
+  font-size: 1.5rem;
+  background-color: green;
+  width: 40%;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,26 @@
-.about {
-  padding: 20rem 0;
+.about-section {
+  padding: 20rem 5rem;
+  display: flex;
+  justify-content: center;
 }
+
+.about {
+  background-color: red;
+  width: 40%;
+  margin: 12rem;
+
+  &__title {
+    font-size: 5rem;
+  }
+
+  &__paragraph {
+    font-size: 1.5rem;
+  }
+}
+
+.skills {
+  font-size: 1.5rem;
+  background-color: green;
+  width: 40%;
+}
+
