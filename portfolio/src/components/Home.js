@@ -6,7 +6,7 @@ export default function Home() {
       <div className='main'>
        <h1 className='main__title'>Bruno Melo</h1>
         <h2 className='main__title-sub'>Front end developer | Full stack development student at Trybe.</h2>
-        <button className='btn'>About Me</button>
+        <a href="#" className='btn'>About Me</a>
       </div>
     </div>
   )

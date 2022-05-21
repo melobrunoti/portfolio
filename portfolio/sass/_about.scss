@@ -1,13 +1,17 @@
 .about-section {
-  padding: 20rem 5rem;
+  padding: 15rem 5rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   background-color: rgb(246, 246, 246);
   color: rgb(82, 82, 82);
 }
 
 .about {
-  max-width: 40%;
+  width: 62rem;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
   margin: 2rem;
   height: 50rem;
   border-radius: 1rem;
@@ -56,7 +60,8 @@
 .skills {
   font-size: 1.5rem;
   /* background-color: green; */
-  width: 40%;
+  width: 62rem;
+  flex: 0 0 auto;
 
   &__title {
     font-size: 5rem;

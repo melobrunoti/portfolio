@@ -55,12 +55,15 @@ body {
 }
 
 .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.8rem;
   margin-top: 3rem;
   padding: 1.5rem 4rem;
-  display: inline-block;
   border-radius: 10rem;
   border: 2px solid #fff;
+  text-decoration: none;
   cursor: pointer;
   width: 20rem;
   color: #fff;
@@ -80,15 +83,19 @@ body {
 }
 
 .about-section {
-  padding: 20rem 5rem;
+  padding: 15rem 5rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   background-color: rgb(246, 246, 246);
   color: rgb(82, 82, 82);
 }
 
 .about {
-  max-width: 40%;
+  width: 62rem;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
   margin: 2rem;
   height: 50rem;
   border-radius: 1rem;
@@ -130,7 +137,8 @@ body {
 .skills {
   font-size: 1.5rem;
   /* background-color: green; */
-  width: 40%;
+  width: 62rem;
+  flex: 0 0 auto;
 }
 .skills__title {
   font-size: 5rem;
@@ -161,6 +169,81 @@ body {
 }
 .skills path {
   fill: var(--color-primary-dark);
+  transition: all 0.2s;
+}
+
+.projects-section {
+  background-image: linear-gradient(to right bottom, rgba(84, 197, 99, 0.8), rgba(79, 137, 212, 0.8)), url(./images/projects-bg.jpg);
+  background-size: cover;
+  width: 100%;
+  padding: 15rem 5rem;
+}
+
+.project-title {
+  text-align: center;
+  font-size: 6rem;
+  letter-spacing: 0.5rem;
+  margin-bottom: 6rem;
+  width: 100%;
+  color: #fff;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background-color: rgba(208, 209, 208, 0.226);
+  height: 40rem;
+  width: 50rem;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 6rem 2rem;
+}
+.project-card__links-container {
+  height: 30%;
+}
+.project-card__photo {
+  height: 70%;
+}
+.project-card__photo img {
+  width: 100%;
+}
+.project-card__title {
+  margin-top: 0.5rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+.project-card__links {
+  display: flex;
+  justify-content: space-evenly;
+  transition: all 0.2s;
+  align-items: center;
+  margin-top: 2rem;
+}
+.project-card__links button {
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+}
+.project-card__links__icon {
+  height: 4rem;
+  width: 4rem;
+}
+.project-card__links__icon:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+}
+.project-card__links__icon:hover path {
+  fill: var(--color-secondary);
+}
+.project-card path {
+  fill: white;
   transition: all 0.2s;
 }
 

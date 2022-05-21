@@ -21,7 +21,7 @@ const skills = [
   },
   {
     icon:'node-dot-js',
-    name:'React'
+    name:'NodeJS'
   },
   {
     icon:'mysql',

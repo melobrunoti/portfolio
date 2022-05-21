@@ -1,0 +1,91 @@
+.projects-section {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(rgb(84, 197, 99), 0.8),
+    rgba(rgb(79, 137, 212), 0.8)),
+  url(./images/projects-bg.jpg);
+  background-size: cover;
+  width: 100%;
+  padding: 15rem 5rem;
+}
+
+.project-title {
+  text-align: center;
+  font-size: 6rem;
+  letter-spacing: .5rem;
+  margin-bottom: 6rem;
+  width: 100%;
+  color: #fff;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.project-card {
+  background-color: rgba(208, 209, 208, 0.226);
+  height: 40rem;
+  width: 50rem;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 6rem 2rem;
+
+  &__links-container{
+    height: 30%;
+  }
+
+  &__photo {
+    height: 70%;
+  }
+
+  &__photo img{
+    width: 100%;
+  }
+
+  &__title {
+    margin-top: .5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  &__links {
+    display: flex;
+    justify-content: space-evenly;
+    transition: all .2s;
+    align-items: center;
+    margin-top: 2rem;
+
+    button {
+      border-radius: 50%;
+      background-color: transparent;
+      border: none;
+    }
+
+    &__icon {
+      height: 4rem;
+      width: 4rem;
+      &:hover {
+        transform: scale(1.15);
+        cursor: pointer;
+      }
+
+      &:hover path{
+        fill: var(--color-secondary);
+      }
+    }
+  }
+
+  path {
+    fill: white;
+    transition: all .2s;
+ 
+    
+  }
+  
+}

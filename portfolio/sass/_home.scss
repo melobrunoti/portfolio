@@ -35,12 +35,15 @@
 }
 
 .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.8rem;
   margin-top: 3rem;
   padding: 1.5rem 4rem;
-  display: inline-block;
   border-radius: 10rem;
   border: 2px solid #fff;
+  text-decoration: none;
   cursor: pointer;
   width: 20rem;
   color: #fff;
