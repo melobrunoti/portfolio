@@ -8,15 +8,15 @@ export default function Projects() {
     <div className='projects-section'>
       <h2 className='project-title'>Projects</h2> 
       <div className='card-container'>
-      {projects.map(({name, image}) => 
-         <div className='project-card'>
+      {projects.map(({name, image}, index) => 
+         <div key={index} className='project-card'>
             <div className='project-card__photo'>
                <img src={image} alt="imagem projeto cookit" ></img>
             </div>
             <div className='project-card__links-container'>
             <h2 className='project-card__title'>{name}</h2>
             <div className='project-card__links'>
-               <button title='Github'>
+               <button title='Github' href="https://github.com/melobrunoti">
                   <IcomoonReact iconSet={iconSet} icon='github' className="project-card__links__icon"/>
                </button>
                <button title='Live'>

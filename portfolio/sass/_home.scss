@@ -11,6 +11,9 @@
   
   color: #fff;
   height: 95vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 }
 
@@ -61,5 +64,25 @@
   &:active {
     transform: translateY(-.1rem);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
+  }
+}
+
+.links {
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  width: 7rem;
+  display: block;
+  margin: 3rem;
+  transition: all .5s;
+
+  &:hover {
+    transform: translateY(-1rem);
+    cursor: pointer;
+  }
+
+  path {
+      fill: white;
+      transition: all .2s;
   }
 }

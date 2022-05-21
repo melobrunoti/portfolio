@@ -6,7 +6,7 @@ import skills from '../data/skills'
 
 export default function About() {
  return (   
-  <div className='about-section'>
+  <div className='about-section' id="about">
     <div className='about'>
       <div className='about__box'>
         <img src={Perfil} alt="foto perfil Bruno Melo" className='about__photo'></img>

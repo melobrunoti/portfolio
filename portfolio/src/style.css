@@ -35,6 +35,9 @@ body {
   height: 95vh;
   color: #fff;
   height: 95vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .main {
@@ -80,6 +83,24 @@ body {
 .btn:active {
   transform: translateY(-0.1rem);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.links {
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  width: 7rem;
+  display: block;
+  margin: 3rem;
+  transition: all 0.5s;
+}
+.links:hover {
+  transform: translateY(-1rem);
+  cursor: pointer;
+}
+.links path {
+  fill: white;
+  transition: all 0.2s;
 }
 
 .about-section {
@@ -245,6 +266,16 @@ body {
 .project-card path {
   fill: white;
   transition: all 0.2s;
+}
+
+.footer {
+  padding: 3rem 0;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+  color: #777;
 }
 
 /*# sourceMappingURL=style.css.map */
