@@ -17,7 +17,7 @@ export default function About() {
       <p className='about__paragraph' >Apaixonado por tecnologia, 100% focado em aprimorar e adquirir novos conhecimentos! </p>
     </div>
     <div className='skills' >
-      <h2 className='skills__title title-effect'>Skills</h2> 
+      <h2 className='skills__title title-effect'>Conhecimentos</h2> 
       <div className='skills__container'>
       {skills.map(({ name, icon }, index) => 
         <div key={index} className='skills__box' >

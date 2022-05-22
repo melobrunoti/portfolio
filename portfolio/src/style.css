@@ -1,8 +1,11 @@
 :root {
   --color-dark: #1c1d25;
   --color-primary: rgb(84, 197, 99);
+  --color-primary-bg: rgba(84, 197, 99, 0.815);
   --color-primary-dark: rgb(81, 185, 95);
   --color-secondary:rgb(79, 137, 212);
+  --color-secondary-bg:rgba(79, 137, 212, 0.8);
+  scroll-behavior: smooth;
 }
 
 * {
@@ -28,7 +31,7 @@ body {
 }
 
 .home {
-  background-image: linear-gradient(to right bottom, rgba(84, 197, 99, 0.8), rgba(79, 137, 212, 0.8)), url(./images/bg.jpg);
+  background-image: linear-gradient(to right bottom, var(--color-primary-bg), var(--color-secondary-bg)), url(./images/bg.jpg);
   background-size: cover;
   /*     clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%); */
   color: #fff;
@@ -194,7 +197,7 @@ body {
 }
 
 .projects-section {
-  background-image: linear-gradient(to right bottom, rgba(84, 197, 99, 0.8), rgba(79, 137, 212, 0.8)), url(./images/projects-bg.jpg);
+  background-image: linear-gradient(to right bottom, var(--color-primary-bg), var(--color-secondary-bg)), url(./images/projects-bg.jpg);
   background-size: cover;
   width: 100%;
   padding: 15rem 5rem;
@@ -276,6 +279,27 @@ body {
   align-items: center;
   background-color: #333;
   color: #777;
+}
+
+.header {
+  padding: 1.5rem 0;
+  font-size: 1.5rem;
+  background-color: rgba(80, 84, 105, 0.226);
+  top: 0;
+  right: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+.header-nav {
+  padding: 0 5rem;
+}
+.header-nav__link {
+  margin: 0 5rem;
+  text-decoration: none;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

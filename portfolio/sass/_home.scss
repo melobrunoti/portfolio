@@ -1,8 +1,8 @@
 .home {
     background-image: linear-gradient(
       to right bottom,
-      rgba(rgb(84, 197, 99), 0.8),
-      rgba(rgb(79, 137, 212), 0.8)),
+      var(--color-primary-bg),
+      var(--color-secondary-bg)),
     url(./images/bg.jpg);
     background-size: cover;
 /*     clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%); */

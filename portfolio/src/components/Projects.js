@@ -5,8 +5,8 @@ import projects from '../data/projects'
 
 export default function Projects() {
   return (
-    <div className='projects-section'>
-      <h2 className='project-title'>Projects</h2> 
+    <div className='projects-section' id="projects">
+      <h2 className='project-title'>Projetos</h2> 
       <div className='card-container'>
       {projects.map(({name, image}, index) => 
          <div key={index} className='project-card'>
