@@ -9,12 +9,30 @@
 
   --color-secondary:rgb(79, 137, 212);
   --color-secondary-bg:rgba(79, 137, 212, 0.8);
-  scroll-behavior: smooth;
+
 }
 
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
+
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary-dark)
 }
 
 *,
@@ -23,9 +41,54 @@
   box-sizing: inherit;
 }
 
+//media queries
+@mixin respond-phone {
+  @media (max-width: 600px) { @content }
+};
+
+@mixin respond($breakpoint) {
+
+  @if $breakpoint == phone-small {
+    @media (max-width: 23.75em) {@content};  //380px
+  }
+   @if $breakpoint == phone {
+    @media (max-width: 37.5em) { @content };
+   }
+   @if $breakpoint == tab-port {
+    @media (max-width: 56.25em) { @content };
+   }
+   @if $breakpoint == tab-land {
+    @media (max-width: 75em) { @content };
+   }
+   @if $breakpoint == big-desktop {
+    @media (min-width: 112.5em) { @content };
+   }
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+
+  @include respond(phone-small) {
+    font-size: 35.25%;
+  }
+
+  @include respond(phone) {
+    font-size: 40%;
+
+  }
+
+  @include respond(tab-land) {
+    font-size: 56.25%;
+  }
+
+  @include respond(tab-port) {
+    font-size: 50%;
+  }
+
+  @include respond(big-desktop) {
+    font-size: 75%;
+  }
 }
 
 body {
