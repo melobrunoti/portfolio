@@ -18,9 +18,13 @@
 
 .header-nav {
   padding: 0 5rem;
-  &__link{
+  &__link {
     margin: 0 5rem;
     text-decoration: none;
     color: #fff;
+
+    &:hover {
+      color: rgb(140, 211, 73);
+    }
   }
 }

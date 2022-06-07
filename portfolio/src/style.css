@@ -438,6 +438,9 @@ body {
   text-decoration: none;
   color: #fff;
 }
+.header-nav__link:hover {
+  color: rgb(140, 211, 73);
+}
 
 @keyframes moveInLeft {
   0% {
