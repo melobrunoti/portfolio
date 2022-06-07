@@ -8,6 +8,9 @@ import tryunfo from '../images/projects/tryunfo.png'
 import tunes from '../images/projects/tunes.png'
 import warts from '../images/projects/warts.png'
 import wallet from '../images/projects/wallet.png'
+import blogs from '../images/projects/blogsapi.png'
+import dragons from '../images/projects/trybers-and-dragons.png'
+import store from '../images/projects/store-manager.png'
 
 const projects = [
   {
@@ -64,6 +67,24 @@ const projects = [
     git: 'https://github.com/melobrunoti/Pixel-art',
     liveRepo: 'https://melobrunoti.github.io/Pixel-art/',
   },
+]
+
+const backEndProjects = [
+  {
+    name:'Blogs-Api',
+    image:blogs,
+    git: 'https://github.com/melobrunoti/app-de-receitas',
+  },
+  {
+    name:'Trybers And Dragons',
+    image:dragons,
+    git: 'https://github.com/melobrunoti/TrybeWallet',
+   },
+  {
+    name:'Store Manager',
+    image:store,
+    git: 'https://github.com/melobrunoti/trybe-tunes',
+  }
 ]
 
 export default projects;
