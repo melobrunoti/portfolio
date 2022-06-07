@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e496157e.css",
+    "main.js": "/portfolio/static/js/main.cda6900e.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/solar.png": "/portfolio/static/media/solar.c9b9b832b20ef7fbba27.png",
+    "static/media/bg.jpg": "/portfolio/static/media/bg.88cc32525228ae2be031.jpg",
+    "static/media/projects-bg.jpg": "/portfolio/static/media/projects-bg.cf7b6bd11cab94294c3e.jpg",
+    "static/media/Perfil.jpg": "/portfolio/static/media/Perfil.330637c302beeb084987.jpg",
+    "static/media/cookit.png": "/portfolio/static/media/cookit.4243a4235848fc56725b.png",
+    "static/media/tryunfo.png": "/portfolio/static/media/tryunfo.04baa1c537e27632a934.png",
+    "static/media/shopping.png": "/portfolio/static/media/shopping.c85c495efedc5298ebb9.png",
+    "static/media/tunes.png": "/portfolio/static/media/tunes.3df2abc6ed3556eb60b3.png",
+    "static/media/dragons.png": "/portfolio/static/media/dragons.26913de2c1af3745f6e8.png",
+    "static/media/store-manager.png": "/portfolio/static/media/store-manager.4e08edf36ec1368a9ad4.png",
+    "static/media/warts.png": "/portfolio/static/media/warts.032e09b39226fd5ed4b0.png",
+    "static/media/blogsapi.png": "/portfolio/static/media/blogsapi.e22c865d4248de35c7a3.png",
+    "static/media/wallet.png": "/portfolio/static/media/wallet.07f188ecdcf8990f1eee.png",
+    "static/media/to-do.png": "/portfolio/static/media/to-do.86981088b89cd5943b3c.png",
+    "static/media/pixel.png": "/portfolio/static/media/pixel.44f751043a9aae0de6bf.png",
+    "index.html": "/portfolio/index.html",
+    "main.e496157e.css.map": "/portfolio/static/css/main.e496157e.css.map",
+    "main.cda6900e.js.map": "/portfolio/static/js/main.cda6900e.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e496157e.css",
+    "static/js/main.cda6900e.js"
+  ]
+}
