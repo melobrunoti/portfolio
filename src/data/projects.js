@@ -30,14 +30,14 @@ export const projects = [
   {
     name:'Trybe Tunes',
     image:tunes,
-    about:'Apicativo de músicas',
+    about:'Aplicativo de músicas',
     git: 'https://github.com/melobrunoti/trybe-tunes.',
     liveRepo: 'https://melobrunoti.github.io/trybe-tunes/#/',
   },
   {
     name:'Solar System',
     image:solar,
-    about:'Sitema solar listando algumas missões espaciais históricas',
+    about:'Sistema solar listando algumas missões espaciais históricas',
     git: 'https://github.com/melobrunoti/Solar-System.',
     liveRepo: 'https://melobrunoti.github.io/Solar-System/',
   },
@@ -88,7 +88,7 @@ export const backEndProjects = [
   {
     name:'Trybers And Dragons',
     image:dragons,
-    about: 'Universo rpg com arquitetura SOLID e principíos de POO.',
+    about: 'Universo rpg com arquitetura SOLID e princípios de POO.',
     git: 'https://github.com/melobrunoti/Trybers-and-Dragons',
    },
   {
