@@ -347,7 +347,7 @@ body {
 
 .project-card {
   background-color: rgba(208, 209, 208, 0.226);
-  height: 33rem;
+  height: 35rem;
   width: 40rem;
   border-radius: 5px;
   overflow: hidden;
@@ -355,11 +355,17 @@ body {
   min-width: 300px;
   box-shadow: 1rem 0.8rem 0.8rem rgba(10, 10, 10, 0.3);
 }
+.project-card__about {
+  color: #fff;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
 .project-card__links-container {
-  height: 30%;
+  height: 35%;
 }
 .project-card__photo {
-  height: 70%;
+  height: 65%;
 }
 .project-card__photo img {
   width: 100%;

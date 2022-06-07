@@ -8,13 +8,16 @@ export default function Projects() {
     <div className='projects-section' id="projects">
       <h2 className='project-title'>Projetos</h2> 
       <div className='card-container'>
-      {projects.map(({name, image, git, liveRepo}, index) => 
+      {projects.map(({name, image, git, liveRepo, about}, index) => 
          <div key={index} className='project-card'>
             <div className='project-card__photo'>
                <img src={image} alt='imagem projeto'></img>
             </div>
             <div className='project-card__links-container'>
             <h2 className='project-card__title'>{name}</h2>
+            <div className='project-card__about'>
+               <p className='project-card__about__text' >{about}</p>
+            </div>
             <div className='project-card__links'>
                <a title='Github' href={git} target="_blank" rel="noreferrer">
                   <IcomoonReact iconSet={iconSet} icon='github' className="project-card__links__icon"/>
@@ -26,16 +29,18 @@ export default function Projects() {
             </div> 
          </div>
        )}
-       
       </div>
       <div className='card-container'>
-      {backEndProjects.map(({name, image, git, liveRepo}, index) => 
+      {backEndProjects.map(({name, image, git, about}, index) => 
          <div key={index} className='project-card'>
             <div className='project-card__photo'>
                <img src={image} alt='imagem projeto'></img>
             </div>
             <div className='project-card__links-container'>
             <h2 className='project-card__title'>{name}</h2>
+            <div className='project-card__about'>
+               <p className='project-card__about__text' >{about}</p>
+            </div>
             <div className='project-card__links'>
                <a title='Github' href={git} target="_blank" rel="noreferrer">
                   <IcomoonReact iconSet={iconSet} icon='github' className="project-card__links__icon"/>
