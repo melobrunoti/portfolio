@@ -24,6 +24,14 @@ const skills = [
     name:'NodeJS'
   },
   {
+    icon:'typescript',
+    name:'TypeScript'
+  },
+  {
+    icon:'docker',
+    name:'Docker'
+  },
+  {
     icon:'mysql',
     name:'MySQL'
   },
